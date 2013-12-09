@@ -19,27 +19,26 @@
         android:gravity="center_horizontal"
         android:text="State"
         android:textAlignment="center"
-
-        android:textSize="32dp"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
         android:textStyle="italic" />
    
     <ImageView
         android:id="@+id/stateImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_above="@+id/button1"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@id/stateName"
-        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/stateName"        
         android:layout_centerInParent="true"
         android:layout_margin="10dp"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:gravity="center_horizontal"
-        android:clickable="false"
+        android:layout_marginTop="10dp"        
         android:contentDescription="Picture of state"
-        android:scaleType="center" />
+        android:scaleType="center" 
+        android:scaleX="3"
+        android:scaleY="2"
+        />
 
     <Button
         android:id="@+id/button1"
